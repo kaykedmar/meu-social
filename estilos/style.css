@@ -13,7 +13,8 @@ html, body {
 main { 
 
     height: 100vh;
-    background: url('../img/fundo-madeira.jpg');
+    background: url('../img/wp9723248-the-astronaut-4k-wallpapers.jpg') center top;
+
 
 }
 
@@ -33,9 +34,26 @@ section#telefone {
 }
 
 section#redes-sociais  img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+    text-align: right;
+    margin-bottom: 20px;
+
+}
+
+section#redes-sociais { 
+    text-align: right;
+    position: relative;
+    top: 20px;
+    right: 20px;
+   
+}
+
+
+section#redes-sociais img:hover { 
+    border: rgb(255, 252, 252) 1px solid;
+    box-sizing: border-box;
 
 }
 
@@ -49,5 +67,7 @@ iframe#tela {
     height: 470px;
 
 }
+
+
 
 
